@@ -1,0 +1,70 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Klaus Schmidinger <kls@cadsoft.de>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <giancarlo.rinaldo@tiscali.it>\n"
+"POT-Creation-Date: 2008-04-19 14:40+0200\n"
+"PO-Revision-Date: 2008-04-19 11:25+0200\n"
+"Last-Translator: Klaus Schmidinger <kls@cadsoft.de>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Channel manager plugin"
+msgstr "Kanal Manager Plugin"
+
+msgid "Channel manager"
+msgstr "Kanal Manager"
+
+msgid "Max items for alphabetic order"
+msgstr "Max Elemente für alphabetische Sortierung"
+
+msgid "Show : 1) Prov.; 2) ChID; 3) Freq."
+msgstr "Zeige : 1) Prov.; 2) ID; 3) Freq."
+
+msgid "Jump : 1) Alphabetic; 2) Numeric"
+msgstr "Springe : 1) Alphabetisch; 2) Numerisch"
+
+msgid "Channel Manager"
+msgstr "Kanal Manager"
+
+msgid "Radio"
+msgstr "Radio"
+
+msgid "Tv"
+msgstr "TV"
+
+msgid "Tv Crypt"
+msgstr "TV verschlüsselt"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Src+Frequency"
+msgstr "Quelle+Frequenz"
+
+msgid "Group"
+msgstr "Gruppe"
+
+msgid "Src+Provider"
+msgstr "Quelle+Provider"
+
+msgid "Provider"
+msgstr "Provider"
+
+msgid "Src+Name"
+msgstr "Quelle+Name"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Channels"
+msgstr "Kanäle"
+
+msgid "Button$Switch"
+msgstr "Umschalten"

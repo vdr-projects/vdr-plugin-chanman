@@ -1,0 +1,33 @@
+export LANG=it_IT@euro
+export LC_CTYPE=it_IT@euro
+
+emacs debug
+
+gdb ~/vdrVideo/vdr/vdr -s ~/vdrVideo/vdr/PLUGINS/lib/libvdr-chanman.so.1.4.5
+
+break cSecondMenu::Cut()
+break cSecondMenu::Paste()
+
+break cSecondMenu::Propagate()
+
+break cMenuChannels::Setup()
+break cMenuChannels::cMenuChannels()
+break menu.c:417
+
+break chanman.c:599
+
+run -P'softdevice -vo xv:' -Pchanman
+
+
+
+// Salta le funzioni
+(n)ext
+
+// Entra nelle funzioni
+(s)tep
+//Stampa
+(p)rint
+// Continua
+(c)
+// Pulisce breakpoint
+clear

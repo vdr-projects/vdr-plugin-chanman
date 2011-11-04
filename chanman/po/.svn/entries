@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14"
+   name=""
+   committed-date="2008-05-11T20:57:22.188156Z"
+   url="http://svn.messinalug.org/trunk/chanman/po"
+   last-author="allanon"
+   kind="dir"
+   uuid="3a754965-cece-4aa4-9d64-1df25c4bb22d"
+   repos="http://svn.messinalug.org"
+   revision="16"/>
+<entry
+   committed-rev="13"
+   name="nl_NL.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="726cabc2f784b0607c3580fd0ab32b3c"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="hr_HR.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="72620ab88e89634ff7a204de73935d79"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="da_DK.po"
+   text-time="2008-05-18T17:40:23.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="527873f2a90c1c84e7959ed7baf36a08"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="pl_PL.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="6bc314eb5663059edeea155d5c8c67d1"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="nn_NO.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="4050e48222673329d2dc119648c6de29"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="14"
+   name="it_IT.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-05-11T20:57:22.188156Z"
+   checksum="88170af28d1f82a12cde34917af34eaa"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-05-12T18:03:02.000000Z"/>
+<entry
+   committed-rev="13"
+   name="hu_HU.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="84c9b47236dad8ead6e0ac9f49bb96d6"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="sl_SI.po"
+   text-time="2008-05-18T17:40:25.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="42856b3e57d51d4ef6ad08cf72d33df9"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="ca_ES.po"
+   text-time="2008-05-18T17:40:23.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="3b8bbd60724a2c76a551f26b8fcaeaa1"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="fi_FI.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="2561e413a9d9142c0aa0e796a2dea287"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="sv_SE.po"
+   text-time="2008-05-18T17:40:25.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="1c6dda575fc109f33527ab4e2a592d9d"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="ro_RO.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="8faa2c7f214b68ac6012d3d267252511"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="et_EE.po"
+   text-time="2008-05-18T17:40:23.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="126c07793e1d0cfaa8535fbe5e6422be"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="pt_PT.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="20b3983fc41441160849c3ae3a0c034b"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="el_GR.po"
+   text-time="2008-05-18T17:40:23.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="bff7cd3a21dae79a3768ccf797846cac"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="tr_TR.po"
+   text-time="2008-05-18T17:40:25.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="495dfd8331f1dc5f0f4f358c0e165275"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="ru_RU.po"
+   text-time="2008-05-18T17:40:25.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="5bef09319fa6309e4c70a8687812b3a6"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="fr_FR.po"
+   text-time="2008-05-18T17:40:24.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="fdfc51283c7ed3c0b029d5b890d9bb4d"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="13"
+   name="es_ES.po"
+   text-time="2008-05-18T17:40:23.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="bd552ddd0ed1373aedc488ab42b23f51"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+<entry
+   committed-rev="14"
+   name="de_DE.po"
+   text-time="2008-05-18T17:40:23.000000Z"
+   committed-date="2008-05-11T20:57:22.188156Z"
+   checksum="ae5915a8b192a2587b23ccbcb10f6586"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-05-12T18:03:02.000000Z"/>
+<entry
+   committed-rev="13"
+   name="cs_CZ.po"
+   text-time="2008-05-18T17:40:23.000000Z"
+   committed-date="2008-04-19T17:32:54.492883Z"
+   checksum="46cf61b3b72fad9daee887455cbcd253"
+   last-author="allanon"
+   kind="file"
+   prop-time="2008-04-19T12:39:58.000000Z"/>
+</wc-entries>
