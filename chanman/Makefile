@@ -51,7 +51,7 @@ OBJS = $(PLUGIN).o i18n.o
 
 ### Implicit rules:
 
-%.o: %.c
+%.o: %.cc
 	$(CXX) $(CXXFLAGS) -c $(DEFINES) $(INCLUDES) $<
 
 # Dependencies:
@@ -59,7 +59,7 @@ OBJS = $(PLUGIN).o i18n.o
 MAKEDEP = $(CXX) -MM -MG
 DEPFILE = .dependencies
 $(DEPFILE): Makefile
-	@$(MAKEDEP) $(DEFINES) $(INCLUDES) $(OBJS:%.o=%.c) > $@
+	@$(MAKEDEP) $(DEFINES) $(INCLUDES) $(OBJS:%.o=%.cc) > $@
 
 -include $(DEPFILE)
 
@@ -74,7 +74,7 @@ I18Npot   = $(PODIR)/$(PLUGIN).pot
 %.mo: %.po
 	msgfmt -c -o $@ $<
 
-$(I18Npot): $(wildcard *.c)
+$(I18Npot): $(wildcard *.cc)
 	xgettext -C -cTRANSLATORS --no-wrap --no-location -k -ktr -ktrNOOP --msgid-bugs-address='<giancarlo.rinaldo@tiscali.it>' -o $@ $^
 
 %.po: $(I18Npot)
