@@ -1,22 +1,18 @@
-# VDR plugin language source file.
-# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
-# This file is distributed under the same license as the VDR package.
-# Klaus Schmidinger <kls@cadsoft.de>, 2000
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: VDR 1.5.7\n"
-"Report-Msgid-Bugs-To: <giancarlo.rinaldo@tiscali.it>\n"
-"POT-Creation-Date: 2009-01-03 10:30+0100\n"
+"Report-Msgid-Bugs-To: <herrlado@gmail.com>\n"
+"POT-Creation-Date: 2011-11-09 14:18+0100\n"
 "PO-Revision-Date: 2008-04-19 11:25+0200\n"
-"Last-Translator: Klaus Schmidinger <kls@cadsoft.de>\n"
+"Last-Translator: Lado Kumsiashvili<herrlado@gmail.com>\n"
 "Language-Team: <vdr@linuxtv.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-15\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Max items for alphabetic order"
-msgstr "Max Elemente für alphabetische Sortierung"
+msgstr "Max Elemente fÃ¼r alphabetische Sortierung"
 
 msgid "Show : 1) Prov.; 2) ChID; 3) Freq."
 msgstr "Zeige : 1) Prov.; 2) ID; 3) Freq."
@@ -34,7 +30,7 @@ msgid "Tv"
 msgstr "TV"
 
 msgid "Tv Crypt"
-msgstr "TV verschlüsselt"
+msgstr "TV verschlÃ¼sselt"
 
 msgid "All"
 msgstr "Alle"
@@ -58,24 +54,19 @@ msgid "Name"
 msgstr "Name"
 
 msgid "Channels"
-msgstr "Kanäle"
+msgstr "KanÃ¤le"
 
 msgid "Button$Switch"
 msgstr "Umschalten"
 
 #, fuzzy
 msgid "Button$Cut"
-msgstr "Umschalten"
+msgstr "Ausschneiden"
 
 #, fuzzy
 msgid "Button$Paste"
-msgstr "Umschalten"
+msgstr "EinfÃ¼gen"
 
 msgid "Button$Mark"
-msgstr ""
+msgstr "Markieren"
 
-#~ msgid "Channel manager plugin"
-#~ msgstr "Kanal Manager Plugin"
-
-#~ msgid "Channel manager"
-#~ msgstr "Kanal Manager"
