@@ -6,7 +6,7 @@ static const char *MAINMENUENTRY  = trNOOP( "Channel manager" );
 static const char *DESCRIPTION    = "Channel manager plugin";
 static const char *MAINMENUENTRY  = "Channel manager";
 #endif
-
+static const char *VERSION        = "0.0.9";
 
 enum eChannelSortMode { csmNumber, csmName, csmProvider, csmSrcProvider, csmSrcName , csmSrcFrequency};
 
@@ -129,7 +129,7 @@ class cFirstMenu : public cOsdMenu {
   void Setup(void);
  public:
   cFirstMenu(void);
-  ~cFirstMenu(void);
+  virtual ~cFirstMenu(void);
   bool IsFirst(cMyChannel *lchannel, int nch);
   bool IsLast(cMyChannel *lchannel, int nch);
   bool SkipIt(cMyChannel *lchannel);
@@ -150,9 +150,10 @@ class cSecondMenu : public cOsdMenu {
   void Propagate(void);
   cChannel *GetChannel(int Index);
   cMyChannel *GetMyChannel(int Index);
+
  public:
   cSecondMenu(cMyChannel *firstlch, int numch);
-  ~cSecondMenu(void);
+  virtual ~cSecondMenu(void);
   eOSState ProcessKey(eKeys k);
   eOSState Switch(void);
   eOSState Number(eKeys k);
