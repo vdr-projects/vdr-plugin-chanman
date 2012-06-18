@@ -2,7 +2,7 @@ Source: vdr-plugin-chanman
 Section: video
 Priority: extra
 Maintainer: Lado Kumsiashvili <herrlado@gmail.com>
-Build-Depends: cdbs, debhelper (>= 7.0.50~), vdr-dev (>= 1.7.21-4yavdr1~natty), gettext
+Build-Depends: cdbs, debhelper (>= 7.0.50~), vdr-dev (>= 1.6.0~), gettext
 Standards-Version: 3.8.4
 Vcs-Svn: svn://svn.debian.org/pkg-vdr-dvb/vdr/vdr-plugin-chanman/trunk/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-vdr-dvb/vdr/vdr-plugin-chanman/trunk/
@@ -12,4 +12,3 @@ Package: vdr-plugin-chanman
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${vdr:Depends}
 Description: Change channel with a multi level choice
- 
