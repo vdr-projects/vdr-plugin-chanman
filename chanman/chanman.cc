@@ -200,11 +200,7 @@ bool cPluginChanman::Initialize(void) {
 
 bool cPluginChanman::Start(void) {
 	// Start any background activities the plugin shall perform.
-#if APIVERSNUM >= 10507
 	I18nRegister("chanman");
-#else
-	RegisterI18n( Phrases );
-#endif
 	return true;
 }
 
@@ -730,8 +726,8 @@ cSecondMenu::cSecondMenu(cMyChannel *firstlch, int numch) :
 		SetCurrent(currentItem);
 	}
 	SetHelp(tr("Button$Switch"), tr("Button$Cut"),
-			cMyChannel::SortMode() == csmNumber ? tr("Button$Paste") : tr(""),
-			cMyChannel::SortMode() == csmNumber ? tr("Button$Mark") : tr(""));
+			cMyChannel::SortMode() == csmNumber ? tr("Button$Paste") : tr("EMPTY"),
+			cMyChannel::SortMode() == csmNumber ? tr("Button$Mark") : tr("EMPTY"));
 	Display();
 }
 
