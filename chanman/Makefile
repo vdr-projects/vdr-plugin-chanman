@@ -85,11 +85,12 @@ $(I18Nmsgs): $(LOCALEDIR)/%/LC_MESSAGES/vdr-$(PLUGIN).mo: $(PODIR)/%.mo
 	@mkdir -p $(dir $@)
 	cp $< $@
 
-
+.PHONY: i18n
+i18n: $(I18Nmsgs)
 
 ### Targets:
 
-all: libvdr-$(PLUGIN).so
+all: libvdr-$(PLUGIN).so i18n
 
 libvdr-$(PLUGIN).so: $(OBJS)
 	$(CXX) $(CXXFLAGS) -shared $(OBJS) -o $@
