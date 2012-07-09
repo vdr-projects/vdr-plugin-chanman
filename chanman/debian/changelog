@@ -1,12 +1,4 @@
-vdr-plugin-chanman (0.0.9-1) unstable; urgency=low
+vdr-plugin-chanman (0.0.10-1) unstable; urgency=low
+  * http://projects.vdr-developer.org/versions/show/299
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
-  
-  Important:
-  
-  If you intend to make this plugin available to others, please create an
-  ITP-bug (see http://www.debian.org/devel/wnpp ) and contact the
-  Debian VDR packaging team: pkg-vdr-dvb-devel@lists.alioth.debian.org
-
- -- root <root@unknown>  Fri, 04 Nov 2011 15:11:33 +0100
-
+ -- lado <herrlado@gmail.com>  Mon, 09 Jul 2012 15:45:01 +0100
