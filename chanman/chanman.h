@@ -1,6 +1,6 @@
 static const char *DESCRIPTION    = trNOOP( "Channel manager plugin" );
 static const char *MAINMENUENTRY  = trNOOP( "Channel manager" );
-static const char *VERSION        = "0.0.9";
+static const char *VERSION        = "0.0.10";
 
 enum eChannelSortMode { csmNumber, csmName, csmProvider, csmSrcProvider, csmSrcName , csmSrcFrequency};
 
