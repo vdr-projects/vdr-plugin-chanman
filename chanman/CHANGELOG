@@ -1,3 +1,5 @@
+2012-07-09  Lado Kumsiashvii  <herrlado@gmail.com>
+    * I18N Fix: http://projects.vdr-developer.org/versions/show/299
 -0.9
 * On entering a submenu, check if the current channel is in this group set the entry es curren (selector on it) => http://projects.vdr-developer.org/issues/778
 * Doesnt compile on vdr 1.7.27 => http://projects.vdr-developer.org/issues/1001
