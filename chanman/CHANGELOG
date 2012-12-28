@@ -1,5 +1,10 @@
-2012-07-09  Lado Kumsiashvii  <herrlado@gmail.com>
-    * I18N Fix: http://projects.vdr-developer.org/versions/show/299
+-0.0.11 
+	* Bug #1194: Enter Empty Group, Click OK => segfault
+	* Bug #1196: adopt vdr 1.7.34 Makfile for plugins
+	
+-0.0.10
+	* I18N Fix: http://projects.vdr-developer.org/versions/show/299
+
 -0.9
 * On entering a submenu, check if the current channel is in this group set the entry es curren (selector on it) => http://projects.vdr-developer.org/issues/778
 * Doesnt compile on vdr 1.7.27 => http://projects.vdr-developer.org/issues/1001
@@ -13,3 +18,4 @@
 * In the 5th(a) version we have a correction on IconPatch.If you have the patch and you want to use the Icons change "config.h".
 * In the 5th(b). Another stupid bug.
 * In version 0.0.6. Pressing key "0" in group, sort it alphabetically; Pressing key 1-9 in the first menu works as in a mobile phone (eg. 1-->"ABC", 2-->"DEF", etc.). In the setup if you want you can setup the old style (change by number); Bugfix on setup (now you really use the setting you change).
+* see HISTORY
