@@ -163,7 +163,7 @@ class cItemChoice2 : public cOsdItem {
   cChannel *channel;
   cMyChannel *mychannel;
  public:
-  cItemChoice2(int positem,cChannel *channel,cMyChannel *mychannel);
+  cItemChoice2(int positem, cChannel *channel,cMyChannel *mychannel);
   cChannel *GetChan(void){return channel;}
   cMyChannel *GetMyChan(void){return mychannel;}
   int Number(void){return positem;}

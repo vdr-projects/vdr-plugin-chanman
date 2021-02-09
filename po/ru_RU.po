@@ -11,55 +11,55 @@ msgstr ""
 "PO-Revision-Date: 2008-04-19 11:25+0200\n"
 "Last-Translator: Vyacheslav Dikonov <sdiconov@mail.ru>\n"
 "Language-Team: <vdr@linuxtv.org>\n"
-"Language: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-5\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Max items for alphabetic order"
 msgstr ""
 
 msgid "Show : 1) Prov.; 2) ChID; 3) Freq."
-msgstr ""
+msgstr "Показать : 1) Пров.; 2) Канал; 3) Частота"
 
 msgid "Jump : 1) Alphabetic; 2) Numeric"
-msgstr ""
+msgstr "Перейти: 1) По алфавиту; 2) По номеру"
 
 msgid "Channel Manager"
-msgstr ""
+msgstr "Менеджер Каналов"
 
 msgid "Radio"
-msgstr ""
+msgstr "Радио"
 
 msgid "Tv"
-msgstr ""
+msgstr "ТВ"
 
 msgid "Tv Crypt"
-msgstr ""
+msgstr "Кодированное ТВ"
 
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 msgid "Src+Frequency"
-msgstr ""
+msgstr "Источ.+Частота"
 
 msgid "Group"
-msgstr ""
+msgstr "Группы"
 
 msgid "Src+Provider"
-msgstr ""
+msgstr "Источ.+Провайдер"
 
 msgid "Provider"
-msgstr ""
+msgstr "Провайдер"
 
 msgid "Src+Name"
-msgstr ""
+msgstr "Источ.+Название"
 
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 msgid "Channels"
-msgstr ""
+msgstr "Каналы"
 
 msgid "Button$Switch"
 msgstr ""
@@ -71,7 +71,7 @@ msgid "Button$Paste"
 msgstr ""
 
 msgid "EMPTY"
-msgstr ""
+msgstr "ПУСТО"
 
 msgid "Button$Mark"
 msgstr ""

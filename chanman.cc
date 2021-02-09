@@ -54,9 +54,10 @@ int cMyChannel::Compare(const cListObject &ListObject) const {
 ;
 
 void cMyChannels::Set() {
+LOCK_CHANNELS_WRITE;
 	int pos = 1;
-	for (cChannel *channel = Channels.First(); channel;
-			channel = Channels.Next(channel)) {
+	for (cChannel *channel = Channels->First(); channel;
+			channel = Channels->Next(channel)) {
 		Add(new cMyChannel(channel, pos));
 		pos++;
 	}
@@ -328,9 +329,10 @@ void cFirstMenu::Setup() {
 	number = 0;
 	bool isInGroup = false;
 
+	LOCK_CHANNELS_WRITE;
 	cMyChannel *first = NULL;
 	cChannel *currentChannel;
-	currentChannel = Channels.GetByNumber(cDevice::CurrentChannel());
+	currentChannel = Channels->GetByNumber(cDevice::CurrentChannel());
 
 	cItemChoice1 *currentItem = NULL;
 
@@ -703,8 +705,9 @@ cSecondMenu::cSecondMenu(cMyChannel *firstlch, int numch) :
 	cMyChannel *lchannel;
 	number = 0;
 	lchannel = firstlch;
-	cChannel *currentChannel;
-	currentChannel = Channels.GetByNumber(cDevice::CurrentChannel());
+	LOCK_CHANNELS_READ;
+	const cChannel *currentChannel;
+	currentChannel = Channels->GetByNumber(cDevice::CurrentChannel());
 	cItemChoice2 *currentItem = NULL;
 
 	for (int i = 1; i <= numch; i++) {
@@ -746,7 +749,8 @@ cMyChannel *cSecondMenu::GetMyChannel(int Index) {
 
 void cSecondMenu::Propagate(void) {
 	int i = 1;
-	Channels.ReNumber();
+	LOCK_CHANNELS_WRITE;
+	Channels->ReNumber();
 	for (cItemChoice2 *ci = (cItemChoice2 *) First(); ci; ci =
 			(cItemChoice2 *) ci->Next()) {
 		ci->SetPos(i);
@@ -754,13 +758,14 @@ void cSecondMenu::Propagate(void) {
 		ci->Set();
 	}
 	Display();
-	Channels.SetModified(true);
+	Channels->SetModifiedByUser();
 	MyChannels.SetModified();
 }
 
 void cSecondMenu::Move(int From, int To) {
+	LOCK_CHANNELS_WRITE;
 	int CurrentChannelNr = cDevice::CurrentChannel();
-	cChannel *CurrentChannel = Channels.GetByNumber(CurrentChannelNr);
+	cChannel *CurrentChannel = Channels->GetByNumber(CurrentChannelNr);
 	cChannel *FromChannel = GetChannel(From); // From e' la posizione nel menu di cItemChoice2
 	cChannel *ToChannel = GetChannel(To); // GetChannel Restituisce la posizione nella lista Channels.
 	cMyChannel *FromMyChannel = GetMyChannel(From);
@@ -769,7 +774,7 @@ void cSecondMenu::Move(int From, int To) {
 	if (FromChannel && ToChannel) {
 		int FromNumber = FromChannel->Number();
 		int ToNumber = ToChannel->Number();
-		Channels.Move(FromChannel, ToChannel);
+		Channels->Move(FromChannel, ToChannel);
 		MyChannels.Move(FromMyChannel, ToMyChannel);
 		cOsdMenu::Move(From, To);
 		Propagate();
@@ -778,7 +783,7 @@ void cSecondMenu::Move(int From, int To) {
 		if (CurrentChannel && CurrentChannel->Number() != CurrentChannelNr) {
 			if (!cDevice::PrimaryDevice()->Replaying()
 					|| cDevice::PrimaryDevice()->Transferring())
-				Channels.SwitchTo(CurrentChannel->Number());
+				Channels->SwitchTo(CurrentChannel->Number());
 			else
 				cDevice::SetCurrentChannel(CurrentChannel);
 		}
@@ -789,7 +794,7 @@ void cSecondMenu::Paste(void) {
 
 	//  int CurrentChannelNr = cDevice::CurrentChannel();
 	//  cChannel *CurrentChannel = Channels.GetByNumber(CurrentChannelNr);
-
+	LOCK_CHANNELS_WRITE;
 	cMyChannel *FromMyChannel;
 
 	cItemChoice2 *CurrentChoice = (cItemChoice2 *) Get(Current());
@@ -808,7 +813,7 @@ void cSecondMenu::Paste(void) {
 
 		FromChannel = FromMyChannel->GetCh();
 
-		Channels.Move(FromChannel, ToChannel);
+		Channels->Move(FromChannel, ToChannel);
 		MyChannels.Move(FromMyChannel, ToMyChannel);
 
 		//void cOsdMenu::Add(cOsdItem *Item, bool Current, cOsdItem *After)
