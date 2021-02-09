@@ -1,0 +1,83 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Vyacheslav Dikonov <sdiconov@mail.ru>, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <see README>\n"
+"POT-Creation-Date: 2021-02-09 21:15+1000\n"
+"PO-Revision-Date: 2008-04-19 11:25+0200\n"
+"Last-Translator: ua0lnj\n"
+"Language-Team: ua0lnj\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Max items for alphabetic order"
+msgstr "Макс. элементов в алфавитном порядке"
+
+msgid "Show : 1) Prov.; 2) ChID; 3) Freq."
+msgstr "Показать : 1) Пров.; 2) Канал; 3) Частота"
+
+msgid "Jump : 1) Alphabetic; 2) Numeric"
+msgstr "Перейти: 1) По алфавиту; 2) По номеру"
+
+msgid "Channel Manager"
+msgstr "Менеджер Каналов"
+
+msgid "Radio"
+msgstr "Радио"
+
+msgid "Tv"
+msgstr "ТВ"
+
+msgid "Tv Crypt"
+msgstr "Кодированное ТВ"
+
+msgid "All"
+msgstr "Все"
+
+msgid "Src+Frequency"
+msgstr "Источ.+Частота"
+
+msgid "Group"
+msgstr "Группы"
+
+msgid "Src+Provider"
+msgstr "Источ.+Провайдер"
+
+msgid "Provider"
+msgstr "Провайдер"
+
+msgid "Src+Name"
+msgstr "Источ.+Название"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Channels"
+msgstr "Каналы"
+
+msgid "Button$Switch"
+msgstr "Перекл"
+
+msgid "Button$Cut"
+msgstr "Вырезать"
+
+msgid "Button$Paste"
+msgstr "Вставить"
+
+msgid "EMPTY"
+msgstr "ПУСТО"
+
+msgid "Button$Mark"
+msgstr "Выделить"
+
+msgid "Channel manager plugin"
+msgstr "Менеджер каналов"
+
+msgid "Channel manager"
+msgstr "Менеджер Каналов"
