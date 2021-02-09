@@ -79,7 +79,7 @@ I18Npot   = $(PODIR)/$(PLUGIN).pot
 %.mo: %.po
 	msgfmt -c -o $@ $<
 
-$(I18Npot): $(wildcard *.cc)
+$(I18Npot): $(wildcard *.cc *.h)
 	xgettext -C -cTRANSLATORS --no-wrap --no-location -k -ktr -ktrNOOP --package-name=vdr-$(PLUGIN) --package-version=$(VERSION) --msgid-bugs-address='<see README>' -o $@ `ls $^`
 
 %.po: $(I18Npot)
