@@ -785,7 +785,11 @@ void cSecondMenu::Move(int From, int To) {
 					|| cDevice::PrimaryDevice()->Transferring())
 				Channels->SwitchTo(CurrentChannel->Number());
 			else
+#if APIVERSNUM < 20504
 				cDevice::SetCurrentChannel(CurrentChannel);
+#else
+				cDevice::SetCurrentChannel(CurrentChannel->Number());
+#endif
 		}
 	}
 }
