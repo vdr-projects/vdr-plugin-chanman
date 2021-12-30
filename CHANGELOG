@@ -1,10 +1,14 @@
+- 0.0.13
+	* Fixed SetCurrentChannel function for vdr-2.5.4
+
 -0.0.12
 	* Fixes for translation.
 	* Update to vdr-2.4.x. Clean code.
--0.0.11 
+
+-0.0.11
 	* Bug #1194: Enter Empty Group, Click OK => segfault
 	* Bug #1196: adopt vdr 1.7.34 Makfile for plugins
-	
+
 -0.0.10
 	* I18N Fix: http://projects.vdr-developer.org/versions/show/299
 
